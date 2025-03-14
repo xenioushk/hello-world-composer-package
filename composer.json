@@ -1,0 +1,21 @@
+{
+  "name": "bwl-plugin/hello-world-package",
+  "description": "A simple composer package that display hello world message.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BwlPlugin\\HelloWorldPackage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Md Mahbub Alam Khan",
+      "email": "hkhan.cse@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.2"
+  }
+}
