@@ -6,7 +6,7 @@ namespace BwlPlugin\HelloWorldPackage;
  * Class MyClass
  * 
  * @package BwlPlugin\HelloWorldPackage
- * @version 1.0.0
+ * @version 1.0.1
  * @author Bwl<hkhan.cse@gmail.com>
  * @category BwlPlugin
  * @license http://opensource.org/licenses/MIT The MIT License (MIT)
