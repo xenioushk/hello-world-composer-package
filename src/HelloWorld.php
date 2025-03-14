@@ -11,10 +11,15 @@ namespace BwlPlugin\HelloWorldPackage;
  * @category BwlPlugin
  * @license http://opensource.org/licenses/MIT The MIT License (MIT)
  */
-class MyClass
+class HelloWorld
 {
-  public function sayHello()
+  public function sayHelloWorld()
   {
-    return "Hello from MyClass!";
+    return "Hello from HelloWorld Class! " . $this->get_current_time();
+  }
+
+  public function get_current_time()
+  {
+    return date('Y-m-d H:i:s');
   }
 }
